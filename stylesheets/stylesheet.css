@@ -11,16 +11,42 @@ ul.list > li
     list-style-type: none;
     border-bottom: 1px solid gray;
 } */
-
-li a:link{
-color:green;
+/* 
+li a:link {
+  color: green;
 }
 
-li a:visited{
-    color: red;
+li a:visited {
+  color: red;
 }
 
-li a:hover{
-    color:pink;
+li a:hover {
+  color: pink;
 }
- 
+
+li:first-child::first-letter {
+  font-size: 120%;
+  font-weight: bold;
+}
+
+a[title *= "page"]
+{
+    background-color: yellow;
+} */
+
+/* .main {
+	color: rebeccapurple;
+	border: 2px solid #ccc;
+	padding: 1em;
+}
+
+.special{
+    color:green;
+} */
+img{
+    float:left;
+}
+
+.below{
+    clear:left;
+}
