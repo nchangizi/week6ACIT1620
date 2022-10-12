@@ -5,3 +5,9 @@ div h2{
 h2 + p{ 
     color: red;
 }
+
+ul.list > li
+{
+    list-style-type: none;
+    border-bottom: 1px solid gray;
+}
